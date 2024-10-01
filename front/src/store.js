@@ -1,5 +1,5 @@
 import {createStore,combineReducers,applyMiddleware} from 'redux';
-import {thunk} from 'redux-thunk';
+import thunk from 'redux-thunk';
 import {composeWithDevTools} from 'redux-devtools-extension';
 import { ProductsReducer,ProductDetailsReducer, newProductReducer, productReducer, newReviewReducer, productReviewsReducer, reviewReducer } from './reducer/ProductReducer';
 import { allUsersReducer, authReducer, forgotPasswordReducer, userDetailsReducer, userReducer } from './reducer/userReducer';

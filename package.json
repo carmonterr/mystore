@@ -31,6 +31,7 @@
     "validator": "^13.11.0"
   },
   "devDependencies": {
+    "@types/react": "^17.0.83",
     "nodemon": "^3.0.1"
   }
 }
